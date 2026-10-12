@@ -6,12 +6,7 @@ Proyek ini merupakan penugasan akademik pembuatan halaman web *Curriculum Vitae*
 Berikut adalah pratinjau tampilan web CV pada perangkat Desktop dan Mobile:
 
 ### Tampilan Desktop
-> *[Catatan: Masukkan gambar/screenshot tampilan desktop Anda di sini, contoh: `images/desktop-view.png`]*
-
-### Tampilan Mobile
-> *[Catatan: Masukkan gambar/screenshot tampilan mobile Anda di sini, contoh: `images/mobile-view.png`]*
-
----
+![Tampilan Desktop](image/desktop.png)
 
 ## 📝 Ringkasan Kesimpulan
 Pengembangan proyek *Curriculum Vitae* web ini berhasil diselesaikan dengan menerapkan prinsip dasar pengembangan web modern secara menyeluruh. Proyek ini mengimplementasikan struktur kode HTML semantik yang rapi untuk bagian profil, pendidikan, keahlian, dan kontak. Dari sisi penataan gaya, proyek ini memanfaatkan **CSS Eksternal** yang didukung dengan **10 properti CSS Inline** secara spesifik untuk memenuhi ketentuan penugasan. 
