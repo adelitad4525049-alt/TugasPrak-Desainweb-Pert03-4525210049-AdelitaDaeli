@@ -1,0 +1,94 @@
+/* ==========================================================
+   MINI STYLE GUIDE:
+   1. Font Keluarga: 
+      - Utama (Body): Arial, Helvetica, sans-serif
+      - Judul (Heading): Arial Bold / Sans-Serif
+   2. Warna Utama: 
+      - Background: #F4F4F4 (RGB: rgb(244, 244, 244))
+      - Teks Utama: #333333
+   3. Warna Aksen: 
+      - Header & Footer: Gradient rgb(184, 205, 224) ke rgb(27, 77, 170)
+      - Heading (H2): oklch(51.1% 0.096 186.391)
+   4. Ukuran Heading: 
+      - H1: 35px
+      - H2: 24px
+   5. Line Height: 
+      - Body: 1.7
+      - List (UL): 1.8
+   ========================================================== */
+/* ========================= PENGATURAN DASAR HALAMAN ========================= */ 
+BODY { FONT-FAMILY: ARIAL,HELVETICA, SANS-SERIF; 
+        FONT-SIZE: 16PX; 
+        LINE-HEIGHT: 1.7; 
+        BACKGROUND-COLOR: #F4F4F4; 
+        COLOR: #333333; 
+        MARGIN: 0; } 
+        /* =========================
+
+HEADER ========================= */ 
+HEADER { 
+    BACKGROUND-image: linear-gradient(to bottom, rgb(184, 205, 224), rgb(27, 77, 170)); 
+    COLOR: rgb(221, 182, 149); 
+    TEXT-ALIGN: CENTER; 
+    PADDING: 30PX; } 
+
+HEADER H1 { 
+    FONT-SIZE: 35PX; 
+    FONT-WEIGHT: BOLD; 
+    MARGIN-BOTTOM: 5PX; } 
+    
+.PROFESI { 
+    FONT-SIZE: 18PX; 
+    FONT-WEIGHT: NORMAL; 
+    COLOR: RGBA(255, 255, 255, 0.85); } 
+    
+.FOTO-PROFIL { 
+    WIDTH: 240PX; 
+    HEIGHT: 220PX; 
+    BORDER-RADIUS: 70PX; 
+    BORDER: 5PX SOLID rgb(42, 100, 167); }
+
+/* ========================= KONTEN UTAMA ========================= */ 
+MAIN { 
+    WIDTH: 80%; 
+    MARGIN: 30PX AUTO; 
+    BACKGROUND-COLOR: rgb(192, 208, 231); 
+    PADDING: 30PX; } 
+    
+SECTION { 
+    MARGIN-BOTTOM: 30PX; } 
+
+H2 { 
+    COLOR: oklch(51.1% 0.096 186.391); 
+    FONT-SIZE: 24PX; 
+    BORDER-BOTTOM: 2PX SOLID #2053c2; 
+    PADDING-BOTTOM: 5PX; } 
+
+P { 
+    COLOR: rgb(80, 74, 74);
+    FONT-SIZE: 19PX; 
+    TEXT-ALIGN: JUSTIFY; } 
+
+UL { 
+    FONT-SIZE: 19PX; /* kata dalam setiap judul */
+    LINE-HEIGHT: 1.8; 
+}
+
+/* ========================= HYPERLINK ========================= */ 
+A { 
+    COLOR: #5549bd; 
+    TEXT-DECORATION: NONE; }
+
+A:HOVER { 
+    TEXT-DECORATION: UNDERLINE; }
+    
+/* ========================= FOOTER ========================= */ 
+FOOTER { 
+    BACKGROUND-image: linear-gradient(to bottom, rgb(184, 205, 224), rgb(27, 77, 170)); 
+    COLOR: rgb(253, 253, 253); 
+    TEXT-ALIGN: CENTER; 
+    PADDING: 20PX; } 
+
+FOOTER P { 
+    TEXT-ALIGN: CENTER; 
+    FONT-SIZE: 15PX; }
